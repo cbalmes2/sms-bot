@@ -10,15 +10,15 @@
 date_default_timezone_set('America/New_York');
 
 // General
-$projectName="STANLEY";
-$projectEmail="stanley@ideo.com";
-$projectPhoneNumber="YOUR PHONE NUMBER";
+$projectName="GX-CHATBOT";
+$projectEmail="cbalmes2@gmail.com";
+$projectPhoneNumber="8479773542";
 
 
 // Twilio API credentials
-$accountSid = "YOUR ACCOUNT SID";
-$authToken = "YOUR ACCOUNT TOKEN"; //
-$twilioPhoneNumber = "YOUR TWILIO PHONE NUMBER";
+$accountSid = "AC310cf67c26b76b0400470356d6bc188e";
+$authToken = "20d2a49a395322fddf074e972f29a20d"; //
+$twilioPhoneNumber = "8475581777";
 $siteURL="YOUR SITE URL";
 
 
@@ -41,8 +41,8 @@ mysqli_error($dbConnection);
 
 
 // Responses setup (when you need an automated response to users - i.e. when the team is away or the session is over)
-$automatedResponseOver="n"; // options: y | n 
-$automatedResponseTeamSleeping ="n"; // options: y | n 
+$automatedResponseOver="n"; // options: y | n
+$automatedResponseTeamSleeping ="n"; // options: y | n
 $automatedResponseTimeStart = "Today 9pm";
 $automatedResponseTimeEnd = "Tomorrow 10am";
 
