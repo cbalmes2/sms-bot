@@ -12,7 +12,7 @@ date_default_timezone_set('America/New_York');
 // General
 $projectName="GX-CHATBOT";
 $projectEmail="cbalmes2@gmail.com";
-$projectPhoneNumber="8479773542";
+$projectPhoneNumber="8475581777";
 
 
 // Twilio API credentials
@@ -49,13 +49,13 @@ $automatedResponseTimeEnd = "Tomorrow 10am";
 
 
 // Create a API client instance
-$http = new Services_Twilio_TinyHttp(
-    'https://api.twilio.com',
-    array('curlopts' => array(
-        CURLOPT_SSL_VERIFYPEER => true,
-        CURLOPT_SSL_VERIFYHOST => 2
-    )));
-
-$client = new Services_Twilio($accountSid, $authToken, "2010-04-01", $http);
+// $http = new Services_Twilio_TinyHttp(
+//     'https://api.twilio.com',
+//     array('curlopts' => array(
+//         CURLOPT_SSL_VERIFYPEER => true,
+//         CURLOPT_SSL_VERIFYHOST => 2
+//     )));
+//
+// $client = new Services_Twilio($accountSid, $authToken, "2010-04-01", $http);
 
 ?>
