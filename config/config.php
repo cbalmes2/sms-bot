@@ -19,14 +19,14 @@ $projectPhoneNumber="8479773542";
 $accountSid = "AC310cf67c26b76b0400470356d6bc188e";
 $authToken = "20d2a49a395322fddf074e972f29a20d"; //
 $twilioPhoneNumber = "8475581777";
-$siteURL="YOUR SITE URL";
+$siteURL="https://gx-chatbot.herokuapp.com/";
 
 
 // Slack Webhook integration
-$slackWebHookURL="YOUR SLACK PRIVATE CHANNEL WEB HOOK";
-$slackRoom = "THE NAME OF YOUR SLACK ROOM";
-$slackBotName = "Stanley"; //THE NAME OF YOUR BOT
-$slackBotIcon = ":robot_face:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
+$slackWebHookURL="https://hooks.slack.com/services/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";
+$slackRoom = "gx-chatbot";
+$slackBotName = "gx-chatbot"; //THE NAME OF YOUR BOT
+$slackBotIcon = ":beer:"; // THE PROFILE IMAGE OF YOUR BOT example :money_mouth_face: or :shit:
 
 
 // Database Stuff
